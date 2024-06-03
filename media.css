@@ -1,0 +1,339 @@
+@media(max-width:768px) {
+    body {
+        font-size: 24px;
+        line-height: 28px;
+        background-image: url(./assets/tablet-img-drinks.svg);
+        background-position: top 1200px center;
+    }
+
+    .box {
+        max-width: 768px;
+    }
+
+    .wrapper {
+        max-width: 668px;
+        position: relative;
+    }
+
+    header {
+        margin-bottom: 70px;
+        height: 140px;
+    }
+
+    .nav__menu {
+        gap: 32px;
+        padding-top: 115px;
+        height: 12px;
+        justify-content: space-between;
+    }
+
+    .nav__menu li a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    li:nth-child(3) {
+        position: absolute;
+        top: 65px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav__menu li:nth-child(3) a {
+        margin: 0;
+    }
+
+    .nav__menu li:nth-child(3) a svg {
+        height: 50px;
+        width: 150px;
+    }
+
+    h1 {
+        font-size: 98px;
+        line-height: 102px;
+    }
+
+    .about__text {
+        max-width: 560px;
+    }
+
+    .about img:nth-of-type(1) {
+        display: none;
+    }
+
+    .about img:nth-of-type(2) {
+        position: static;
+    }
+
+    .about__text,
+    .form__text,
+    .footer__text a,
+    span {
+        line-height: 30px;
+        font-size: inherit;
+    }
+
+    .drinks article {
+        max-width: 527px;
+    }
+
+    h2 {
+        font-size: 74px;
+        line-height: 78px;
+    }
+    
+    .drinks__text {
+        font-size: 20px;
+        line-height: inherit;
+    }
+    
+    br {
+        display: none;
+    }
+
+    .drinks img:last-of-type {
+        height: 455px;
+        right: 0px;
+        top: 1650px;
+    }
+
+    .testimonials {
+        margin-bottom: 135px;
+        flex-wrap: wrap;
+    }
+    
+    section.testimonials .testimonials__img {
+        width: 100%;
+        height: 298px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .testimonials__img:first-of-type {
+        background-image: url(./assets/mobile-man.svg);
+        margin-bottom: 70px;
+    }
+
+    .testimonials__img:last-of-type {
+        background-image: url(./assets/mobile-woman.svg);
+    }
+
+    .about,
+    .drinks,
+    .form {
+        margin-bottom: 250px;
+    }
+
+    .form__text {
+        max-width: 530px;
+    }
+
+    .form__wrapper {
+        width: 565px;
+        height: 565px;
+        gap: 20px;
+        padding: 50px 62px;
+    }
+    
+    input {
+        padding: 10px;
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .form input:last-of-type {
+        margin-top: 30px;
+        width: 270px;
+        padding: 18px 0;
+    }
+
+    .footer__btn {
+        gap: 35px;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:375px) {
+    body {
+        font-size: 14px;
+        line-height: 15px;
+        background-image: url(./assets/mobile-img-drinks.svg);
+        background-position: top 549px left 0;
+    }
+
+    .box {
+        max-width: 375px;
+    }
+
+    .wrapper {
+        max-width: 316px;
+        padding: 30px 0;
+    }
+
+    .flex {
+        gap: 30px;
+    }
+
+    a {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    li:nth-child(3) {
+        position: absolute;
+        top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav__menu li:nth-child(3) a svg {
+        height: 23px;
+        width: 76px;
+    }
+
+    a.btn {
+        padding: 11px 0;
+        border: 1px solid var(--black);
+        width: 160px;
+        height: 40px;
+    }
+
+    header {
+        margin-bottom: 60px;
+        height: 60px;
+    }
+
+    .nav__menu {
+        padding-top: 48px;
+        gap: 35px;
+    }
+
+    .nav__menu li a {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .about {
+        margin-bottom: 135px;
+    }
+
+    h1 {
+        font-size: 64px;
+        line-height: 50px;
+    }
+
+    .about__text {
+        font-size: 11px;
+        line-height: 15px;
+        width: 100%;
+    }
+
+    .about img:nth-of-type(2) {
+        width: 168px;
+    }
+
+    .drinks {
+        margin-bottom: 210px;
+    }
+
+    .drinks article {
+        max-width: 100%;
+    }
+
+    .drinks img:last-of-type {
+        right: 30px;
+        top: 910px;
+        filter: drop-shadow(5px 25px 55px rgba(249, 248, 242, 0.45));
+        height: 215px;
+        width: 55px;
+    }
+
+    h2 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+    .drinks__text {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .drinks__descr {
+        max-width: 270px;
+        align-self: flex-start;
+    }
+
+    .drinks__descr .drinks__text:first-of-type {
+        margin-bottom: 15px;
+    }
+
+    article .btn {
+        border-color: inherit;
+    }
+
+    section.testimonials .testimonials__img:first-of-type {
+        width: 286px;
+        height: 125px;
+        margin-bottom: 30px;
+    }
+
+    section.testimonials .testimonials__img:last-of-type {
+        width: 315px;
+        height: 142px;
+    }
+
+    .testimonials,
+    .form {
+        margin-bottom: 90px;
+    }
+
+    .form__title {
+        word-spacing: 10px;
+    }
+
+    .form__text {
+        max-width: 250px;
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .form__wrapper {
+        width: 315px;
+        height: 315px;
+        box-shadow: 10px 20px 30px rgba(17, 17, 17, 0.45);
+        border-radius: 30px;
+        gap: 13px;
+        padding: 30px 42px;
+    }
+
+    input {
+        border-bottom: 2px solid var(--white);
+        height: 37px;
+        font-size: inherit;
+        line-height: 17px;
+    }
+
+    .form input:last-of-type {
+        border: 1px solid var(--white);
+        width: 160px;
+        height: 40px;
+        margin-top: 15px;
+        padding: 11px 0;
+    }
+
+    .footer__text {
+        gap: 15px;
+    }
+
+    .footer__btn {
+        gap: 15px;
+    }
+
+    .footer__text a,
+    span {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
