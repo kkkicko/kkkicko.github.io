@@ -8,7 +8,7 @@
 * Adaptive design
 
 ## Author
-* Viktoria - development of a responsive landing page
+* Viktoria - design and development of an adaptive landing page
 
 ## Thank you!
 
