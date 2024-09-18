@@ -1,6 +1,6 @@
 # Landing Page for a Bar Startup Project
 
-**Maximum minified one-page site that has been optimized for three standard device screens: Desktop, Tablet and Mobile**
+**Maximum minified one-page site that has been optimized for three standard device screens: Desktop, Tablet and Mobile.**
 
 ## Technologies and approaches
 * HTML
